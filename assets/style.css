@@ -7,13 +7,6 @@
   --altTertiaryColor: #e07a5f;
 }
 
-html,body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden; 
-}
 
 * {
   box-sizing: border-box;
@@ -105,7 +98,7 @@ footer a {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 50%;
+  width: 30%;
 }
 
 .hero h2 {
@@ -128,13 +121,15 @@ footer a {
 }
 
 .about-img {
-  width: 50%;
+  width: 80%;
   display: flex;
 }
 
 .about-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
   color: Var(--primaryColor);
   font-size: 25px;
 }
@@ -145,13 +140,6 @@ footer a {
   width:50%
 }
 
-.about-textContainer {
-border: 2px solid black;
-text-align: center;
-display: flex;
-padding:10px;
-width: 100%;
-}
 /* end About */
 
 /* Start Skills */
