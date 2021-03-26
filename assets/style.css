@@ -7,10 +7,19 @@
   --altTertiaryColor: #e07a5f;
 }
 
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 
 body {
@@ -35,7 +44,7 @@ header {
   background-color: var(--primaryColor);
   padding: 20px 35px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
@@ -44,6 +53,7 @@ header {
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
+  border-bottom: 1px solid #000 ;
 }
 
 header a {
@@ -68,7 +78,7 @@ footer {
   color: var(--altSecondaryColor);
   display: flex;
   justify-content: space-between;
-  text-align: center;
+  text-align: flex-start;
   padding: 15px 25px;
   display: flex;
   flex-wrap: wrap;
@@ -87,8 +97,10 @@ footer a {
 }
 
 .hero img {
+  display: flex;
   align-items: center;
-  padding: 50px;
+  margin: auto;
+  width: 50%;
 }
 
 .hero h2 {
