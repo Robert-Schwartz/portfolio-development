@@ -1,5 +1,5 @@
 :root {
-  --primaryColor: #4f63d8;
+  --primaryColor: #7510f7;
   --secondaryColor: #000;
   --tertiaryColor: #7db397;
   --altPrimaryColor: #284b63;
@@ -41,8 +41,8 @@ section h2 {
 /* Start Header */
 header {
   text-decoration: none;
-  background-color: var(--primaryColor);
-  padding: 20px 35px;
+  background-color: var(--secondaryColor);
+  padding: 10px 10px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -60,6 +60,11 @@ header a {
   text-decoration: none;
   color: var(--altSecondaryColor);
   font-weight: bold;
+}
+
+header h1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header ul {
@@ -169,10 +174,22 @@ width: 100%;
   background-color: var(--primaryColor);
   color: var(--altSecondaryColor);
   border-top: 2px solid var(--secondaryColor);
+  display: flex;
 }
 
 .projects h2 {
   color: var(--altSecondaryColor);
+}
+
+#runBuddy {
+  border: 5px solid #000;
+  box-shadow: #000;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondaryColor);
+  color: var(--altSecondaryColor);
+  font-size: x-large; 
 }
 /* end Work */
 
