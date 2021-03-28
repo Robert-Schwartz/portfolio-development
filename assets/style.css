@@ -7,7 +7,6 @@
   --altTertiaryColor: #e07a5f;
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -28,7 +27,7 @@ section h2 {
   padding: 20px;
   font-weight: bold;
   font-size: 50px;
-  text-shadow: 1px 7px 8px black;
+  text-shadow: 1px 2px 8px black;
 }
 
 /* Start Header */
@@ -46,7 +45,7 @@ header {
   background-attachment: fixed;
   background-position: 80%;
   z-index: 9999;
-  border-bottom: 1px solid #000 ;
+  border-bottom: 1px solid #000;
 }
 
 header a {
@@ -91,19 +90,22 @@ footer a {
 
 /* Start Hero */
 .hero {
-  margin: 150px;
+  background-image: url(./images/IMG_3452.JPG);
+  background-size: 100% 100%;
+  padding: 50px 0;
 }
 
 .hero img {
   align-items: center;
   display: flex;
   margin: auto;
-  width: 50%;
+  width: 30%;
 }
 
 .hero p {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 25px;
+  color: var(--secondaryColor);
   margin: 10px;
   padding: 10px;
   justify-content: center;
@@ -112,6 +114,7 @@ footer a {
 
 /* Start About */
 .about {
+  margin-bottom: 25px 10px 50px 10px;
 }
 
 .about-img {
@@ -125,13 +128,13 @@ footer a {
   align-items: center;
   text-align: center;
   color: Var(--primaryColor);
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .about-img-container {
   text-align: left;
   padding: 0;
-  width:50%
+  width: 70%;
 }
 
 /* end About */
@@ -163,7 +166,7 @@ footer a {
 
 .sectionTitle h2 {
   color: var(--primaryColor);
-  text-shadow: 1px 2px 2px black;
+  text-shadow: 1px 2px 0px black;
 }
 
 .myProjects {
@@ -172,7 +175,7 @@ footer a {
 
 .myWork {
   color: var(--primaryColor);
-  font-size: x-large; 
+  font-size: x-large;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -184,12 +187,12 @@ footer a {
   width: 80%;
   height: 80%;
   display: inline-block;
- justify-content: center;
+  justify-content: center;
 }
 
 .myWork a img {
   width: 80%;
-  border: .5px solid black;
+  border: 0.5px solid black;
 }
 /* end Work */
 
