@@ -2,7 +2,7 @@
   --primaryColor: #7510f7;
   --secondaryColor: #000;
   --tertiaryColor: #7db397;
-  --altPrimaryColor: #284b63;
+  --altPrimaryColor: #266894;
   --altSecondaryColor: #ffffff;
   --altTertiaryColor: #e07a5f;
 }
@@ -147,6 +147,8 @@ footer a {
 
 .skills h2 {
   color: var(--altSecondaryColor);
+  width: 50% auto;
+  border-top: 5px solid var(--tertiaryColor);
 }
 
 .skills p {
@@ -156,26 +158,34 @@ footer a {
 
 /* Start Work */
 .projects {
-  background-color: var(--altSecondaryColor);
-  color: var(--secondaryColor);
-  border-top: 2px solid var(--secondaryColor);
+  background-color: var(--primaryColor);
+  color: var(--altSecondaryColor);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.sectionTitle h2 {
-  color: var(--primaryColor);
-  text-shadow: 1px 2px 0px black;
+.projects h2 {
+  color: var(--altSecondaryColor);
+  width: 50% auto;
+  border-top: 5px solid var(--tertiaryColor);
+  margin-bottom: 10px;
+}
+
+.projects h3 {
+color: var(--altSecondaryColor);
+font-size: 25px
 }
 
 .myProjects {
   display: flex;
+  justify-content: space-around;
 }
 
 .myWork {
-  color: var(--primaryColor);
+  color: var(--altSecondaryColor);
   font-size: x-large;
+  font-weight: bold;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -186,25 +196,28 @@ footer a {
 .myWork a {
   width: 80%;
   height: 80%;
-  display: inline-block;
   justify-content: center;
 }
 
 .myWork a img {
   width: 80%;
   border: 0.5px solid black;
+  border-radius: 10%;
+  box-shadow: 2px 2px 8px black;
 }
 /* end Work */
 
 /* Start Contact */
 .contact {
-  background-color: var(--primaryColor);
+  background-color: var(--secondaryColor);
   color: var(--altSecondaryColor);
   border-top: 2px solid var(--secondaryColor);
+  padding: 25px;
 }
 
 .contact h2 {
   color: var(--altSecondaryColor);
 }
+
 
 /* end Contact */
