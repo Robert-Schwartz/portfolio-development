@@ -67,6 +67,10 @@ header li {
   list-style: none;
   margin: 0 10px;
 }
+
+header span {
+  color: var(--primaryColor);
+}
 /* end Header */
 
 /* Start Footer */
@@ -86,6 +90,10 @@ footer a {
   color: var(--altSecondaryColor);
   text-decoration: none;
 }
+
+footer span {
+  color: var(--primaryColor);
+}
 /* end Footer*/
 
 /* Start Hero */
@@ -101,16 +109,19 @@ footer a {
   margin: auto;
   width: 40%;
 }
-
-.hero p {
-  font-weight: bold;
-  font-size: 30px;
-  color: var(--secondaryColor);
-  margin: 10px;
-  padding: 10px;
-  justify-content: center;
-}
 /* end Hero */
+
+/* intro line */
+.introLine {
+  font-weight: bolder;
+  font-size: 35px;
+  background-color: var(--primaryColor);
+  color: var(--altSecondaryColor);
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+/* end intro line */
 
 /* Start About */
 .about {
@@ -127,7 +138,7 @@ footer a {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  color: Var(--primaryColor);
+  color: Var(--secondaryColor);
   font-size: 30px;
 }
 
@@ -173,8 +184,8 @@ footer a {
 }
 
 .projects h3 {
-color: var(--altSecondaryColor);
-font-size: 25px
+  color: var(--altSecondaryColor);
+  font-size: 25px;
 }
 
 .myProjects {
@@ -218,6 +229,5 @@ font-size: 25px
 .contact h2 {
   color: var(--altSecondaryColor);
 }
-
 
 /* end Contact */
