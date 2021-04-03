@@ -209,7 +209,8 @@ footer span {
 }
 
 .myWork a img {
-  width: 100%;
+  width: 300px;
+  height: 200px;
   border: 0.5px solid black;
   border-radius: 10%;
   box-shadow: 2px 2px 8px black;
