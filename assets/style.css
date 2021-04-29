@@ -166,6 +166,12 @@ footer span {
 /* end Skills */
 
 /* Start Work */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .projects {
   background-color: var(--primaryColor);
   color: var(--altSecondaryColor);
@@ -188,7 +194,8 @@ footer span {
 
 .myProjects {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .myWork {
