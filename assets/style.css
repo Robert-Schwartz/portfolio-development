@@ -4,7 +4,7 @@
   --tertiaryColor: #7db397;
   --altPrimaryColor: #266894;
   --altSecondaryColor: #fff;
-  --altTertiaryColor: #e07a5f;
+  --altTertiaryColor: #e9e290;
 }
 
 * {
@@ -179,6 +179,32 @@ footer span {
 .skills p {
   padding: 20px;
 }
+
+#skillBox {
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#skillBox ul {
+  text-decoration: none;
+}
+
+.skills li {
+  font-size: x-large;
+  font-weight: bolder;
+  list-style: none;
+  text-shadow: .5px 1px 4px black;
+}
+
+.skills h1 {
+  font-size: 40px;
+  text-shadow: 1px 1px 5px black;
+  border-bottom: 2px solid var(--altTertiaryColor)
+}
+
 /* end Skills */
 
 /* Start Work */
@@ -247,6 +273,11 @@ footer span {
   color: var(--altSecondaryColor);
   border-top: 2px solid var(--secondaryColor);
   padding: 25px;
+  font-size: x-large;
+}
+
+.contact a {
+color: white;
 }
 
 .contact h2 {
